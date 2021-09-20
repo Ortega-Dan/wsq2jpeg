@@ -9,9 +9,17 @@ Is a library to convert wsq images to jpeg format and vice versa. Allows individ
 ```
 ## Compile NBIS
 ### Linux
+
+Download nist "NBIS Software" from: 
+https://www.nist.gov/services-resources/software/nist-biometric-image-software-nbis
+https://www.nist.gov/itl/iad/image-group/products-and-services/image-group-open-source-server-nigos
+
+Have all the files extracted inside the third_party/nbis directory, in the way that the setup.sh is placed in the following relative path:
+[thisProjectRoot]/third_party/nbis/setup.sh
+
+then do the following
+
 ```sh
- $ git clone https://github.com/rnhdev/wsq2jpeg
- $ git submodule update --init
  $ cd third_party/nbis
  ./setup.sh . --without-X11 --64
  $ make config && make it
