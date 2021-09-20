@@ -25,6 +25,10 @@ then do the following
  $ make config && make it
  $ cd ../..
  ```
+ 
+ From there you are able to debug and develop on top of this proyect with a cmake enabled ide, or just compile (and install) if needed with the following instructions:
+ 
+ 
  ## Compile and install
  ### Linux
  ```sh
