@@ -10,8 +10,8 @@ Is a library to convert wsq images to jpeg format and vice versa. Allows individ
 ## Compile NBIS
 ### Linux
 
-Download nist "NBIS Software" from: 
-https://www.nist.gov/services-resources/software/nist-biometric-image-software-nbis
+Download official nist "NBIS Software" from: 
+https://www.nist.gov/services-resources/software/nist-biometric-image-software-nbis or 
 https://www.nist.gov/itl/iad/image-group/products-and-services/image-group-open-source-server-nigos
 
 Have all the files extracted inside the third_party/nbis directory, in the way that the setup.sh is placed in the following relative path:
