@@ -39,6 +39,11 @@ https://www.nist.gov/publications/users-guide-nist-biometric-image-software-nbis
 ![howTo](https://user-images.githubusercontent.com/24926168/134080429-feb25dfd-3b7b-4592-9c06-0d0d26f8ccaa.png)
 
 
-You could also use https://sourceafis.machinezoo.com/ library from Java to get Minutia, the standards for minutia from the NIST are INCITS 378-2004 and ISO/IEC 19794-2:2005.
+You could also use https://sourceafis.machinezoo.com/ library from Java to get Minutia,
+with: https://sourceafis.machinezoo.com/java
+and
+https://sourceafis.machinezoo.com/javadoc/com/machinezoo/sourceafis/FingerprintImage.html
+
+the standards for minutia from the NIST are INCITS 378-2004 and ISO/IEC 19794-2:2005.
 reference: https://www.nist.gov/services-resources/software/biomdi-software-tools-supporting-standard-biometric-data-interchange
 
