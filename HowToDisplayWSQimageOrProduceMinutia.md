@@ -17,5 +17,28 @@ And you can also use it to display a WSQ file with:
 dpyimage [pathToWSQFile]
 ```
 
+
+You can convert a jpeg image to a WSQ file from commands as well by following this steps with the corresponsing binaries:
+
+Important !!!! Make sure the input jpeg is 8 bit grayscale otherwise youll get an error in the process mentioning something about "24 != 8".
+
+```bash
+djpegb nist [pathToYour8bitGrayscaleJpeg]
+```
+(the .nist file will be written next to the input jpeg)
+
+then ...
+```bash
+cwsq 2.75 wsq [pathToDotNistFileFromPreviousCommand]
+```
+
+
+Information was found in official documentation (download from):
+https://www.nist.gov/publications/users-guide-nist-biometric-image-software-nbis
+
+![howTo](https://user-images.githubusercontent.com/24926168/134080429-feb25dfd-3b7b-4592-9c06-0d0d26f8ccaa.png)
+
+
 You could also use https://sourceafis.machinezoo.com/ library from Java to get Minutia, the standards for minutia from the NIST are INCITS 378-2004 and ISO/IEC 19794-2:2005.
 reference: https://www.nist.gov/services-resources/software/biomdi-software-tools-supporting-standard-biometric-data-interchange
+
