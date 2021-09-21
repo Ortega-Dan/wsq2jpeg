@@ -8,11 +8,11 @@ static void progress() {
 
 int main(int argc, char** argv) {
   if (argc < 4) {
-    std::cout<< "Invalid arguments. Run wsq2jpeg IN_PATH OUT_PATH QLT";
+    std::cout<< "Invalid arguments. Run wsq2jpeg IN_PATH OUT_PATH QLT" <<std::endl;
     return -1;
   }
 
-  std::cout << "Running wsq2jpeg: ";
+  std::cout << "Running wsq2jpeg: " <<std::endl;
 
   wsq2jpeg::image::wsq2jpeg(argv[1], argv[2], atoi(argv[3]), progress);
 
